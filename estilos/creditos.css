@@ -246,3 +246,37 @@ h1 sub
 #regresar a{
   text-decoration: none;
 }
+
+#menu{
+  color: white;
+  
+  margin-left: 5vw;
+  margin-top: -10vw;
+  
+}
+#menu p{
+  color: red;
+  font-size: 3vw;
+  margin: 0;
+  padding: 0;
+
+  
+}
+#menu button{
+  background-color: yellow;
+  margin-top: 2vw;
+  margin-left: 0.5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  border-radius: 30px;
+}
+#menu button:hover{
+  background-color: white;
+  margin-top: 2vw;
+  margin-left: 0.5vw;
+}
+#menu a{
+  text-decoration: none;
+}
