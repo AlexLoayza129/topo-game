@@ -1,3 +1,4 @@
+
 @import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
 
 html, body { height: 100%; }
@@ -55,19 +56,21 @@ h1 span:nth-child(14){ animation-delay:.65s; }
         --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
     }
     
-    .wrapper {
-        padding: 1.5rem 0;
-        filter: url("#goo");
-        margin-bottom: 25vw;
-        margin-left: 30vw;
-        position: relative;
-        float: left;
+    
+.wrapper {
+    padding: 1.5rem 0;
+    filter: url("#goo");
+    margin-bottom: 25vw;
+    margin-left: 30vw;
+    position: relative;
+    float: left;
         
 
     }
     #iniciarJuego{
         font-family: 'Dancing Script', cursive;
     }
+   
     .button {
         display: inline-block;
         text-align: center;
@@ -113,6 +116,71 @@ h1 span:nth-child(14){ animation-delay:.65s; }
     .button:hover:after {
         transform: none;
     }
+
+    .wrapper1{
+        padding: 1.5rem 0;
+           filter: url("#goo");
+           margin-bottom: 25vw;
+           margin-right: 30vw;
+           position: relative;
+           float: right;
+       
+   }
+
+   .button1{
+    display: inline-block;
+         text-align: center;
+         background: var(--color);
+         color: var(--bg);
+         font-weight: bold;
+         padding: 1.18em 1.32em 1.03em;
+         line-height: 1;
+         border-radius: 1em;
+         position: relative;
+         min-width: 8.23em;
+         text-decoration: none;
+         font-family: var(--font);
+         font-size: 1.25rem;
+         margin-top: -10vw;
+     
+ }
+ 
+ .button1:before,
+ .button1:after {
+     margin-top: -2.5vw;
+     width: 4.4em;
+     height: 2.95em;
+     position: absolute;
+     content: "";
+     display: inline-block;
+     background: var(--color);
+     border-radius: 50%;
+     transition: transform 1s ease;
+     transform: scale(0);
+     z-index: -1;
+ }
+ 
+ .button:before1 {
+     top: -25%;
+     left: 20%;
+ }
+ 
+ .button1:after {
+     bottom: -25%;
+     right: 20%;
+ } 
+ .button1:hover:before,
+ .button1:hover:after {
+     transform: none;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
     
     /* Demo styles */
     
@@ -141,65 +209,9 @@ h1 span:nth-child(14){ animation-delay:.65s; }
     margin-right: 10%;
     margin-left:10%;
 }
-/* #borde{
-    border: 1px solid red;
-} */
-.wrapper1{
-    float: right;
-    margin-top: 1.7vw;
-    
-}
-.button1{
-    color: black;
-    font-size: 1.5vw;
-    margin-right: 30vw;
-    
-    
-    text-decoration: none;
-    background-color: white;
-    padding-top: 1.5vw;
-    padding-bottom: 1vw;
-    padding-left: 3.7vw;
-    padding-right: 3.7vw;
-    border-radius: 1em;
-    
-}
-/*****************/
+
 :root {
     --bg: #1a1e24;
     --color: #eee;
     --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
 }
-
-
-.button1:before,
-.button1:after {
-    margin-top: 5vw;
-    width: 4.4em;
-    height: 2.95em;
-    position: absolute;
-    content: "";
-    display: inline-block;
-    background: var(--color);
-    border-radius: 50%;
-    transition: transform 1s ease;
-    transform: scale(0);
-    z-index: -1;
-}
-
-.button:before1 {
-    top: -25%;
-    left: 20%;
-}
-
-.button1:after {
-    bottom: 17%;
-    right: 31%;
-} 
-.button1:hover:before,
-.button1:hover:after {
-    transform: none;
-}
-
-
-
