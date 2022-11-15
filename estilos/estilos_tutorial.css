@@ -20,6 +20,17 @@
     
 }
 
+.wrapper1 {
+    padding: 1.5rem 0;
+    filter: url("#goo");
+    /* margin-bottom: 25vw; */
+    margin-left: 30vw;
+    position: relative;
+    float: left;
+    color: gray;
+    
+}
+
 .button {
     display: inline-block;
     text-align: center;
@@ -34,12 +45,36 @@
     text-decoration: none;
     font-family: var(--font);
     font-size: 2rem;
-    margin-top: 22vw;
+    margin-top: 15vw;
+    margin-left: 40vw;
+    background-color: greenyellow;
+    border:2px white solid;
+}
+
+.button1 {
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    color: var(--bg);
+    font-weight: bold;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 2rem;
+    margin-top: -3vw;
     margin-left: 40vw;
     background-color: greenyellow;
     border:2px white solid;
 }
 .button:hover{
+    background-color: white;
+    border:2px red solid;
+}
+.button1:hover{
     background-color: white;
     border:2px red solid;
 }
