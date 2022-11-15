@@ -71,7 +71,7 @@ box-sizing: border-box;
 }
 
 #iniciarJuego:hover{
-transform: translateY(100%);
+transform: translateY(0);
 background-color: red;
 color: white;
 }
