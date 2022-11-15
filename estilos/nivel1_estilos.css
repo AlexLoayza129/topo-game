@@ -717,16 +717,18 @@
 /**/
 /*  RELOJ*/
 #reloj{
-    margin-top: 2vh;
-    margin-left: 2vw;
-    /* background-color : transparent; */
-    
     font-family : Verdana, Arial, Helvetica;
     font-size : 8pt;
-    
 }
 #reloj input{
     background-color : transparent;
     color : White;
     text-align : center;
+}
+
+#form_reloj{
+    display: flex;
+    justify-content:center; 
+    margin-top:1rem;
+    max-width:100%;
 }
