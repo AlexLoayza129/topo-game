@@ -171,7 +171,7 @@ function reiniciarNivel(){
 }
 function salir(){
     if (document.getElementById("salir").onclick){
-        window.location.replace("../HISTORIA.html");/* falta definir */
+        window.location.replace("../index.html");/* falta definir */
     }
 }
 
