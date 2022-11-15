@@ -924,6 +924,7 @@ function general10(){
         puntos = 0;
         document.getElementById("puntos").innerHTML = "PUNTOS " + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + puntos + "/" + puntosPasarNivel;
         document.getElementById("pasar_de_nivel").innerHTML =  window.location.replace("../niveles_topoSmash/nivel2.html");
+       
     }
 }
 ////////////////////////////////////////////////////////////////////////////////
@@ -1007,7 +1008,8 @@ function general11(){
         tiempo = 50;
         puntos = 0;
         document.getElementById("puntos").innerHTML = "PUNTOS " + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + puntos + "/" + puntosPasarNivel;
-        document.getElementById("pasar_de_nivel").innerHTML = /* confirm("Nivel 2!!"), */ window.location.replace("../niveles_topoSmash/nivel4.html");
+        
+        document.getElementById("pasar_de_nivel").innerHTML = /* confirm("Nivel 4!!"),  */window.location.replace("../niveles_topoSmash/nivel4.html");
     }
 }
 ////////////////////////////////////////////////////////////////////////////////
